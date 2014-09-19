@@ -12,6 +12,7 @@
 		4E7D047619A7952D00552CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7D047419A7952D00552CD5 /* Main.storyboard */; };
 		4E7D047819A7952D00552CD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7D047719A7952D00552CD5 /* Images.xcassets */; };
 		4E7D048419A7952D00552CD5 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D048319A7952D00552CD5 /* TipCalculatorTests.swift */; };
+		4E7D048E19AB0E7900552CD5 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D048D19AB0E7900552CD5 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		4E7D047D19A7952D00552CD5 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7D048219A7952D00552CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E7D048319A7952D00552CD5 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		4E7D048D19AB0E7900552CD5 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		4E7D046219A7952D00552CD5 = {
 			isa = PBXGroup;
 			children = (
+				4E7D048D19AB0E7900552CD5 /* TipCalculatorModel.swift */,
 				4E7D046D19A7952D00552CD5 /* TipCalculator */,
 				4E7D048019A7952D00552CD5 /* TipCalculatorTests */,
 				4E7D046C19A7952D00552CD5 /* Products */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7D048E19AB0E7900552CD5 /* TipCalculatorModel.swift in Sources */,
 				4E7D047319A7952D00552CD5 /* ViewController.swift in Sources */,
 				4E7D047119A7952D00552CD5 /* AppDelegate.swift in Sources */,
 			);
